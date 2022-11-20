@@ -1,4 +1,4 @@
-package com.example.operatingsystemsapplication.ui.gallery;
+package com.example.operatingsystemsapplication.ui.chapter2;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,22 +8,25 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
-import com.example.operatingsystemsapplication.databinding.FragmentGalleryBinding;
 
-public class GalleryFragment extends Fragment {
+import com.example.operatingsystemsapplication.databinding.FragmentChapter2Binding;
 
-private FragmentGalleryBinding binding;
+import java.util.zip.Inflater;
+
+public class Chapter2Fragment extends Fragment {
+
+    private FragmentChapter2Binding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
             ViewGroup container, Bundle savedInstanceState) {
-        GalleryViewModel galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
+        Chapter2ViewModel chapterViewModel =
+                new ViewModelProvider(this).get(Chapter2ViewModel.class);
 
-    binding = FragmentGalleryBinding.inflate(inflater, container, false);
+        binding = FragmentChapter2Binding.inflate(inflater, container, false);
     View root = binding.getRoot();
 
         final TextView textView = binding.textGallery;
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        chapterViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

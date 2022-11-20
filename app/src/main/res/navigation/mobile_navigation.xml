@@ -13,13 +13,19 @@
 
     <fragment
         android:id="@+id/nav_chapter2"
-        android:name="com.example.operatingsystemsapplication.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:name="com.example.operatingsystemsapplication.ui.chapter2.Chapter2Fragment"
+        android:label="Chapter 2"
+        tools:layout="@layout/fragment_chapter_2" />
 
     <fragment
         android:id="@+id/nav_chapter3"
         android:name="com.example.operatingsystemsapplication.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_chapter4"
+        android:name="com.example.operatingsystemsapplication.ui.slideshow.Chapter4Fragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>
