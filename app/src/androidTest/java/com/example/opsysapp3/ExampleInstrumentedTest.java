@@ -1,4 +1,4 @@
-package com.example.operatingsystemsapplication;
+package com.example.opsysapp3;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.operatingsystemsapplication", appContext.getPackageName());
+        assertEquals("com.example.opsysapp3", appContext.getPackageName());
     }
 }

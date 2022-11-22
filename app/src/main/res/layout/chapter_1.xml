@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:shrinkColumns="0">
+    <Button
+        android:id="@+id/Chap1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Go Back To Main Page"
+        android:onClick="renderMainPage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TableRow>
+        <TextView
+            android:text="Processor"
+            android:textSize="32dp"
+            android:textColor="@color/black"
+            android:padding="30dp" />
+        <TextView
+            android:text="Controls the operation of the computer and performs its data processing functions. When there is only one processor, it is often referred to as the central processing unit (CPU)."
+            android:gravity="right"
+            android:textColor="@color/black"
+            android:padding="30dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Test"
+            android:textSize="32dp"
+            android:textColor="@color/black"
+            android:padding="30dp" />
+        <TextView
+            android:text="Test"
+            android:gravity="right"
+            android:textColor="@color/black"
+            android:padding="30dp" />
+    </TableRow>
+</TableLayout>
