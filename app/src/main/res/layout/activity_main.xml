@@ -25,6 +25,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="50dp"
         android:text="Chapter 2"
+        android:onClick="renderChap2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -36,6 +37,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="130dp"
         android:text="Chapter 3"
+        android:onClick="renderChap3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -46,6 +48,7 @@
         android:layout_marginTop="130dp"
         android:layout_marginEnd="50dp"
         android:text="Chapter 4"
+        android:onClick="renderChap4"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -56,6 +59,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="230dp"
         android:text="Chapter 5"
+        android:onClick="renderChap5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -66,6 +70,7 @@
         android:layout_marginTop="230dp"
         android:layout_marginEnd="50dp"
         android:text="Chapter 6"
+        android:onClick="renderChap6"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -76,6 +81,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="330dp"
         android:text="Chapter 7"
+        android:onClick="renderChap7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -86,6 +92,7 @@
         android:layout_marginTop="330dp"
         android:layout_marginEnd="50dp"
         android:text="Chapter 8"
+        android:onClick="renderChap8"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -96,6 +103,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="430dp"
         android:text="Chapter 12"
+        android:onClick="renderChap12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

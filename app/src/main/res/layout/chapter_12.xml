@@ -24,109 +24,82 @@
 
 
         <TextView
-            android:text="Processor / Central Processing Unit"
+            android:text="Access Method"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="Controls the operation of the computer and performs its data processing functions. When there is only one processor, it is often referred to as the central processing unit (CPU)."
+            android:text="The level of the file system closet to the user."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
         <TextView
-            android:text="Main Memory"
+            android:text="Basic File System / Physical I/O Level"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="Stores data and programs. This memory is typically volatile; that is, when the computer is shut down, the contents of the memory are lost. In contrast, the contents of disk memory are retained even when the computer system is shut down. Main memory is also referred to as real memory or primary memory"
+            android:text="Primary interface with the anvironment outside the computer system."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
         <TextView
-            android:text="I/O Modules"
+            android:text="Database"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="Move data between the computer and its external environment. The external environment consists of a variety of devices, including secondary memory devices (e.g., disks), communications equipment, and terminals."
+            android:text="A collection of related data."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
         <TextView
-            android:text="System Bus"
+            android:text="Field"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="Provides for communication among processors, main memory, and I/O modules."
+            android:text="A basic element of data."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
         <TextView
-            android:text="Secondary Memory / Auxiliary Memory"
+            android:text="File"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="External, nonvolatile memory."
+            android:text="A collection of similar records."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
         <TextView
-            android:text="Instruction Cycle"
+            android:text="Pathname"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="The processing required for a single instruction."
+            android:text="A series of directory names, culminating in the file name itself."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
-        <TextView
-            android:text="Spatial Locality"
-            android:textSize="20dp"
-            android:textColor="@color/black"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="30dp" />
-        <TextView
-            android:text="The tendency of execution to involve a number of memory locations that are clustered. This reflects the tendency of a processor to access instructions sequentially."
-            android:textColor="@color/black"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp" />
-        <TextView
-            android:text="Temporal Locality"
-            android:textSize="20dp"
-            android:textColor="@color/black"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="30dp" />
-        <TextView
-            android:text="The tendency for a processor to access memory locations that have been used recently."
-            android:textColor="@color/black"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp" />
-
     </LinearLayout>
 </ScrollView>

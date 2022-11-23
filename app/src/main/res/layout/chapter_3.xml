@@ -22,111 +22,96 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0" />
 
-
         <TextView
-            android:text="Processor / Central Processing Unit"
+            android:text="Running State"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="Controls the operation of the computer and performs its data processing functions. When there is only one processor, it is often referred to as the central processing unit (CPU)."
+            android:text="The process that is currently being executed. For this chapter, we will assume a computer with a single processor, so at most, one process at a time can be in this state."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
         <TextView
-            android:text="Main Memory"
+            android:text="Ready State"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="Stores data and programs. This memory is typically volatile; that is, when the computer is shut down, the contents of the memory are lost. In contrast, the contents of disk memory are retained even when the computer system is shut down. Main memory is also referred to as real memory or primary memory"
+            android:text="The process that is prepared to execute when given the opportunity."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
         <TextView
-            android:text="I/O Modules"
+            android:text="Blocked State"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="Move data between the computer and its external environment. The external environment consists of a variety of devices, including secondary memory devices (e.g., disks), communications equipment, and terminals."
+            android:text="A process is put in the blocked state if it requests something for which it must wait."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
         <TextView
-            android:text="System Bus"
+            android:text="New State"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="Provides for communication among processors, main memory, and I/O modules."
+            android:text="A process that has just been defined."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
         <TextView
-            android:text="Secondary Memory / Auxiliary Memory"
+            android:text="Exit State"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="External, nonvolatile memory."
+            android:text="A process that has been released from the pool of executable processes by the OS, either because it halted or because it aborted for some reason."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
         <TextView
-            android:text="Instruction Cycle"
+            android:text="Child Process"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="The processing required for a single instruction."
+            android:text="A process spawned from a parent process."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
         <TextView
-            android:text="Spatial Locality"
+            android:text="Parent Process"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="The tendency of execution to involve a number of memory locations that are clustered. This reflects the tendency of a processor to access instructions sequentially."
+            android:text="A process that spawns a child process."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
-        <TextView
-            android:text="Temporal Locality"
-            android:textSize="20dp"
-            android:textColor="@color/black"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="30dp" />
-        <TextView
-            android:text="The tendency for a processor to access memory locations that have been used recently."
-            android:textColor="@color/black"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp" />
-
     </LinearLayout>
 </ScrollView>

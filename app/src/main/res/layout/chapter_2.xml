@@ -21,112 +21,122 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0" />
-
-
         <TextView
-            android:text="Processor / Central Processing Unit"
+            android:text="Execution Context / Process State"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="Controls the operation of the computer and performs its data processing functions. When there is only one processor, it is often referred to as the central processing unit (CPU)."
+            android:text="The internal data by which the OS is able to supervise and control the process"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
         <TextView
-            android:text="Main Memory"
+            android:text="Downtime"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="Stores data and programs. This memory is typically volatile; that is, when the computer is shut down, the contents of the memory are lost. In contrast, the contents of disk memory are retained even when the computer system is shut down. Main memory is also referred to as real memory or primary memory"
+            android:text="The time during which a system is not available."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
         <TextView
-            android:text="I/O Modules"
+            android:text="Uptime"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="Move data between the computer and its external environment. The external environment consists of a variety of devices, including secondary memory devices (e.g., disks), communications equipment, and terminals."
+            android:text="The time during which a system is available."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
         <TextView
-            android:text="System Bus"
+            android:text="Fault"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="Provides for communication among processors, main memory, and I/O modules."
+            android:text="An erroneous hardware or software state resulting from component failure, operator error, physical interference from the environment, design error, program error, or data structure error."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
         <TextView
-            android:text="Secondary Memory / Auxiliary Memory"
+            android:text="Job"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="External, nonvolatile memory."
+            android:text="A single program."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
         <TextView
-            android:text="Instruction Cycle"
+            android:text="Kernel / Nucleus"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="The processing required for a single instruction."
+            android:text="Contains the most frequently used functions in the OS and, at a given time, other portions of the OS currently in use."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
         <TextView
-            android:text="Spatial Locality"
+            android:text="Multithreading"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="The tendency of execution to involve a number of memory locations that are clustered. This reflects the tendency of a processor to access instructions sequentially."
+            android:text="A technique in which a process, executing an application, is divided into threads that can run concurrently."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
         <TextView
-            android:text="Temporal Locality"
+            android:text="Thread"
             android:textSize="20dp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="30dp" />
         <TextView
-            android:text="The tendency for a processor to access memory locations that have been used recently."
+            android:text="A dispatchable unit of work. It includes a processor context (which includes the program counter and stack pointer) and its own data area for a stack (to enable subroutine branching). A thread executes sequentially and is interruptible so the processor can turn to another thread."
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp" />
-
+        <TextView
+            android:text="Process"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dp" />
+        <TextView
+            android:text="A collection of one or more threads and associated system resources (such as memory containing both code and data, open files, and devices)."
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
     </LinearLayout>
 </ScrollView>
